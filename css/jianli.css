@@ -1,0 +1,391 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar-default {
+	border: 0;
+	background-color: #0c0c0c;
+	position: fixed;
+	top: 20px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.navbar-brand {
+	background: url(../img/159491454628692.png) no-repeat;
+	background-size: 100% 100%;
+	background-position: 0px 0px;
+}
+
+.nav li a:hover {
+	border: solid 4px #ffffff;
+}
+
+.nav>li {
+	margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	padding: .5em 1.5em;
+	margin-right: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ffae00
+}
+
+
+.col_font li {
+	color: #fff;
+}
+
+.header_bj {
+	height: 800px;
+	background: url(../img/hero.jpg) no-repeat;
+	background-color: #778082;
+	background-size: cover;
+}
+
+
+
+.banner {
+	padding: 25em 0;
+	text-align: center;
+	transition: all .5s;
+}
+
+
+.banner p {
+	color: #FFFFFF;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	width: 80%;
+	margin: 3em auto 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 10px;
+
+}
+
+.banner h1 a {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 700;
+	border: solid 10px #fff;
+	padding: .2em .5em;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 8px;
+	transition: 0.4s linear;
+
+}
+
+.banner h1 a:hover {
+	background-color: #ffae00;
+}
+
+.tiaozheng {
+	line-height: 28px;
+	color: #212121;
+	letter-spacing: .5px;
+	font-size: 14px;
+	text-transform: capitalize;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-top: 1px dashed #646464
+}
+
+.con {
+	margin-top: 40px;
+	box-shadow: 5px 5px 6px rgba(0, 0, 0, .1);
+	transition: all .5s;
+}
+
+.con>hover {
+	transform: translateY(0);
+}
+
+.gyw h2 {
+	color: #000;
+	font-size: 2.8em;
+	font-weight: 700;
+	letter-spacing: 7px;
+	margin: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.btn {
+	padding: 0;
+}
+
+.btn li {
+	margin: 10px 30px 0px 0px;
+	list-style: none;
+	float: left;
+	position: relative;
+	bottom: 17px;
+}
+
+.btn li a {
+	display: block;
+	background-color: #1B6D85;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
+
+.btn_1 a {
+	border: 2px solid #778082;
+	color: #fff !important;
+	background: #778082;
+}
+
+.uname {
+	margin-left: 50px;
+}
+
+/* 当屏幕分辨率小于750的时候 */
+@media (min-width:750px) {
+	.distance {
+		margin-top: 83px;
+		line-height: 40px;
+		padding-left: 90px;
+	}
+}
+
+@media (max-width:768px) {
+	.distance {
+		margin-top: 0;
+		line-height: 40px;
+	}
+}
+
+
+
+
+
+.wenzi_1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	color: #ff6c5f;
+}
+
+.color_bg {
+
+	margin-top: 100px;
+
+}
+
+.jsnl {
+	margin-top: 20px;
+	position: relative;
+	top: -25px;
+}
+
+.yuan {
+	font-size: 30px;
+	border: 1px solid #b5b5b5;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	color: #000;
+	border-radius: 50%;
+	margin-bottom: .5em;
+	margin: 0 auto;
+}
+
+.wdjn h2 {
+	color: #FFFFFF;
+	font-size: 2.8em;
+	font-weight: 700;
+	letter-spacing: 7px;
+	margin: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.mar {
+	padding-top: 30px;
+}
+
+
+
+
+
+
+/* 我的作品 */
+
+.thumbnail {
+	padding: 0px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	border: 0;
+}
+
+.label {
+	padding: .2em 0.9em 0em;
+}
+
+.caption h4 {
+	font-weight: bolder;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	line-height: 30px;
+}
+
+.caption_border {
+	padding-left: 20px;
+	margin-left: 10px;
+	border-left: 1px solid #d5d4d4;
+}
+
+.span_a a {
+	color: #000000;
+}
+
+.rmtj_h h2 {
+	margin-bottom: 30px;
+}
+
+/* 联系我 */
+.color_bg1 {
+	background-color: #fff;
+	margin-top: 100px;
+}
+
+.input-group-addon {
+	height: 30px;
+	width: 40px;
+	text-align: center;
+	background: #ffae00;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #fff;
+}
+
+.input-group {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.form-submit {
+	border: none;
+	background: #ffae00;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+.tubiao {
+	display: block;
+	height: 100%;
+	width: 100px;
+	color: #fff;
+}
+
+.fa {
+	display: inline-block;
+}
+
+
+/* 兴趣爱好 */
+
+
+.row_1 {
+	width: 366px;
+	height: 250px;
+	background-color: #ffae00;
+	float: left;
+}
+
+.row_2 {
+	width: 366px;
+	height: 250px;
+	background-color: cornsilk;
+	background: url(../img/u=3874318362,3603805443&fm=26&gp=0.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.row_3 {
+	width: 366px;
+	height: 250px;
+	background-color: #ffae00;
+	float: left;
+}
+
+.row_4 {
+	width: 366px;
+	height: 250px;
+	background: url(../img/u=3993893852,1096643320&fm=26&gp=0.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.row_5 {
+	width: 366px;
+	height: 250px;
+	background-color: #ffae00;
+	float: left;
+}
+
+.row_6 {
+	width: 366px;
+	height: 250px;
+	background: url(../img/u=4159527432,3644487891&fm=26&gp=0.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.wenzi_3 {
+	width: 268px;
+	height: 152px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+
+.wenzi_3 font {
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+.wenzi_3 p {
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+.love h2 {
+	color: #000;
+	font-size: 2.8em;
+	font-weight: 700;
+	letter-spacing: 7px;
+	margin: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.phone a {
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	height: 60px;
+}

@@ -1,0 +1,81 @@
+.love_row {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.row_1 {
+	width: 366px;
+	height: 250px;
+	background-color: #ffae00;
+	float: left;
+}
+
+.row_2 {
+	width: 366px;
+	height: 250px;
+	background-color: cornsilk;
+	background: url(../img/u=3874318362,3603805443&fm=26&gp=0.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.row_3 {
+	width: 366px;
+	height: 250px;
+	background-color: #ffae00;
+	float: left;
+}
+
+.row_4 {
+	width: 366px;
+	height: 250px;
+	background: url(../img/u=3993893852,1096643320&fm=26&gp=0.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.row_5 {
+	width: 366px;
+	height: 250px;
+	background-color: #ffae00;
+	float: left;
+}
+
+.row_6 {
+	width: 366px;
+	height: 250px;
+	background: url(../img/u=4159527432,3644487891&fm=26&gp=0.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.wenzi_3 {
+	width: 268px;
+	height: 152px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+
+.wenzi_3 font {
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+.wenzi_3 p {
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+.love h2{
+	color: #000;
+	font-size: 2.8em;
+	font-weight: 700;
+	letter-spacing: 7px;
+	margin: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+}
